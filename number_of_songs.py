@@ -1,7 +1,7 @@
 
 def get_number_of_songs():
     """
-    returns a list of all of the songs an artist has and what region on the charts
+    returns a list of all of the songs an artist has on the charts
     """
     import csv
     fh = open("top2018.csv")
