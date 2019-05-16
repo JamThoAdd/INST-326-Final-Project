@@ -15,6 +15,6 @@ def get_artist_tracks():
             song_entry = entries['Track Name']
             if song_entry not in songs:
                 songs.append(song_entry)
-     print(songs)
+    print(songs)
     
 get_artist_tracks()
