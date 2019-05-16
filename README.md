@@ -14,7 +14,9 @@ This tool allows users to:
 3.
 
 ## Important Notes
-Before you begin, please make sure you have Python3 installed on your system. Then, install the two datasets below:
+Before you begin, please make sure you have Python3 installed on your system. Then, install the two datasets below in order to run our code properly:
 
 1. https://www.kaggle.com/edumucelli/spotifys-worldwide-daily-song-ranking
-2. 
+2. Download the Top2018 csv file from this repository.
+
+Note: The file for step 1 is extremely big. Make sure you have enough space on your system before downloading.
