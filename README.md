@@ -10,8 +10,8 @@ Our chosen dataset contains information about Spotify's Top 200 Songs Worldwide,
 This tool allows users to:
 
 1. Search an artist name. This will return a full list of their songs that appear on the Spotify charts.
-2.
-3.
+2. Analyze Top 2018 Spotify charts that show the artists with most presence, songs with the fastest tempo, and songs that have the most danceability.
+3. Search an artist name. This will return how many songs they have on the Top 100 list of 2018, as well as a list of those songs.
 
 ## Important Notes
 Before you begin, please make sure you have Python3 installed on your system. Then, install the two datasets below in order to run our code properly:
