@@ -11,7 +11,7 @@ def get_artist_tracks():
     user_input = input("type an artist: ")
     songs = []
     for entries in info:
-        if user_input in entries['Artist']:
+        if user_input in entries['Artist'].lower():
             song_entry = entries['Track Name']
             if song_entry not in songs:
                 songs.append(song_entry)
