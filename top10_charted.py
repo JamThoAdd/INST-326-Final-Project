@@ -3,6 +3,7 @@ import sqlite3
 
 """
 NOTE: database is large so when running file, you need to wait a little bit before you can enter artist name.
+Artist names must be capitalized (ex: ed sheeran won't return anything but Ed Sheeran will).
 Connects with SQL database. Creates a new table called spotify with columns: position, song, artist, streams, and date.
 """
 
@@ -62,7 +63,7 @@ while True:
             position = result[1]
             streams = result[2]
             date = result[3]
-            print("{0}. {1}, {2} ({3} streams on {4}))".format(n, song, position, streams, date))
+            print("{0}. {1}, {2} ({3} streams on {4})".format(n, song, position, streams, date))
 
 """
 Above, the results will be enumerated and returned numbered with a format [song, position, (# streams on date)].
