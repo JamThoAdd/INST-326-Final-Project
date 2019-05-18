@@ -1,9 +1,12 @@
 def chart_facts():
+    #import necessary libraries
     import pandas as pd
     import matplotlib.pyplot as plt
     import seaborn as sns
     from scipy.stats import pearsonr
+    #read from the data.csv file
     df=pd.read_csv('top2018.csv')
+    #create your graphs using column names from data as names for graph
     largest_presence = df['artists'].value_counts().head(10)
     most_danceable = df[['name','artists','danceability']].sort_values(by='danceability',ascending=False).head(10)
     fastest_songs = df[['name','artists','danceability', 'tempo']].sort_values(by='tempo',ascending=False).head(10)
